@@ -678,6 +678,7 @@ nav .fas{
         margin-right: 10px;
         font-size: 16px;
         right: 5px;
+        color: transparent;
     }
 
     .app-title{
