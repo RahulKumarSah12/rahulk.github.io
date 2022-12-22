@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAHUL</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contactc">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="main-body">
+                <div class="header-text">
+                    <div class="code-background">
+                        <p class="code">I Sketch Using Code</p>
+                    </div>
+                    <h1>Hi, I'm <span>Rahul</span> <br>Undergrad Student at NITRKL</h1>
+                    <div class="socials">
+                        <a href="https://www.instagram.com/5mincode/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/-rahulkumarsah/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/RahulKumarSah12"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+    
+                <div class="my-image">
+                    <img src="images/RAHUL IMAGE3.png" alt="" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- **********************About***************** -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/RAHUL IMAGE2.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1><br>
+                    <p> Hello,<br><br>
+
+                        I'm Rahul, pre-final year undergraduate student from National Institute of Technology, Rourkela currently pursuing BTech in Chemical Engineering.<br>
+                        
+                        Being Chemical major, most of my learning has been through online courses, blogs, and books. I believe in the power of self-learning. My love of mathematics, logical reasoning, and a deep interest in technology fuel my enthusiasm in programming.<br>
+                        
+                        I've learnt the fundamentals of front-end web development, and presently studying Data Structures and Algorithms using C++ Language.<br>
+                        I am constantly motivated to advance my knowledge and obtain experience that I can use in my career.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Courses</p>
+                        <!-- <p class="tab-links" onclick="opentab('education')">Education</p> -->
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>2020‐2024<br>B.TECH IN CHEMICAL ENGINEERING<br>NIT ROURKELA</span><br>CGPA : 8.10/10 (till 4th semester)</li>
+                            <li><span>2017‐2019<br>
+                                INTERMEDIATE<br>
+                                DAV Public School, JHARSUGUDA</span>
+                                <br>Percentage: 93.6%</li>
+                            <!-- <li><span>UI/UX</span><br>Desgining web and interface</li> -->
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>JUL 2021<br>Web Development Course</span><br>
+                                This course covers the fundamentals of HTML,<br>CSS, JavaScript as well
+                                as PHP/MySQL.
+                                </li>
+                            <li><span>DEC 2020<br> Beginning C++ Programming ‐ From Beginner to
+                                Beyond</span><br>Modern C++ Object‐Oriented Programming (OOP)<br> and STL skills.
+                                C++14 and C++17 covered.
+                                </li>
+                            <!-- <li><span>UI/UX</span><br>Desgining web and interface</li> -->
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>UI/UX3</span><br>Desgining web and interface</li>
+                            <li><span>UI/UX</span><br>Desgining web and interface</li>
+                            <li><span>UI/UX</span><br>Desgining web and interface</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <!-- *********************Services******************* -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>DSA (PROBLEM SOLVING)</h2>
+                    <p>I have solved around 250+ DSA question on GFG and still working on them.</p>
+                    <a class = "gfg" href="https://auth.geeksforgeeks.org/user/rahulkumarsah12/">My GeeksforGeeks Profile</a>
+                </div>
+
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>FRONTED WEB DEVELOPMENT</h2>
+                    <p>I've learnt the fundamentals of front-end web development.<br><br>
+                        <span class="tech">Techonolgies : HTML, CSS and JavaScript</span>
+                    </p>
+      
+                </div>
+
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>GRAPHIC DESIGNING</h2>
+                    <p>I've learnt the fundamentals of Adobe Photoshop and Canva, worked with over 20+ national and international clients.</p>
+                    <a class = "design" href="https://drive.google.com/drive/folders/1gAH8gfCG2Z0MPAZuyK_qNHK4pFXqKhl_">Link of my works</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ***************Portfolio**************** -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>E‐commerce Website</h3>
+                        <p>This project is the frontend design of a multi‐page E‐commerce store
+                            for purchasing goods and services, including a product, account, and
+                            cart page.
+                            <!-- <a class = "project" href="https://rahulkumarsah12.github.io/ecommercewebsite.github.io/">Rahul</a> -->
+                        </p>
+                        <a class= "websitelink" href = "https://rahulkumarsah12.github.io/ecommercewebsite.github.io/"><i class = "fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>NA</h3>
+                        <p>Will add soon</p>
+                        <a class= "websitelink" href = ""><i class = "fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>NA</h3>
+                        <p>Will add soon</p>
+                        <a class= "websitelink" href = "#"><i class = "fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ****************Contact***************** -->
+ 
+    <!-- <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>rahulrks9805@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+91-7855989805</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/5mincode/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/-rahulkumarsah/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/120CH0637_Rahul Kumar Sah_1_.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                 <div class="contact-left">
+                    <form name = "submit-to-google-sheet" action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" cols="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div> -->
+
+
+
+
+        
+
+    <div class="backgroundc" id="contactc">
+        <div class="containerc">
+          <div class="screen">
+            <div class="screen-header">
+              <div class="screen-header-left">
+                <div class="screen-header-button close"></div>
+                <div class="screen-header-button maximize"></div>
+                <div class="screen-header-button minimize"></div>
+              </div>
+              <div class="screen-header-right">
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+              </div>
+            </div>
+            <div class="screen-body">
+              <div class="screen-body-item left">
+                <div class="app-title">
+                  <span>CONTACT</span>
+                  <span>ME</span>
+                </div>
+                <div class="app-contact"><p>ONTACT INFO : </p><br>
+                    <!-- <p>+917855989805</p><br> -->
+                    <p >rahulrks9805@gmail.com</p><br>
+                    <p ></i>+91-7855989805</p>
+                </div>
+                <div class="app-contact">
+                    <div class="social-icons">
+                        <!-- <a href="https://www.instagram.com/5mincode/"><i class="fab fa-instagram"></i></a> -->
+                        <!-- <a href="https://www.linkedin.com/in/-rahulkumarsah/"><i class="fab fa-linkedin"></i></a> -->
+                    </div>
+                    <div class="btnc"><a href="images/120CH0637_Rahul Kumar Sah_1_.pdf" download class="btn btn2">Download CV</a></div>
+                </div>
+              </div>
+              <div class="screen-body-item">
+                <div class="app-form">
+                    <form name = "submit-to-google-sheet" action="">
+                        <div class="app-form-group">
+                          <input class="app-form-control" type="text" name="Name" placeholder="NAME" required>
+                        </div>
+                        <div class="app-form-group">
+                          <input class="app-form-control" type="email" name="Email" placeholder="EMAIL" required>
+                        </div>
+                        <!-- <div class="app-form-group">
+                          <input class="app-form-control" placeholder="CONTACT NO">
+                        </div> -->
+                        <div class="app-form-group message">
+                          <input class="app-form-control" name="Message" placeholder="MESSAGE">
+                        </div>
+                        <div class="app-form-group buttons">
+                          <!-- <button class="app-form-button">CANCEL</button> -->
+                          <button class="app-form-button">SEND</button>
+                        </div>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="copyright">
+            <!-- <p>Made with <i class="fas fa-heart"></i> by Rahul</p> -->
+            <p>Designed by <span>Rahul</span></p>
+        </div>
+    </div> 
+
+
+
+    <!-- *********************JavaScript**************** -->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+
+    <!-- *******************Js for sidemenu**************** -->
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    <!-- *********************************************************** -->
+
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxP0oB_gNqz7KR6XILAR-xoHxCwAjjJ_pyrAIywFLlkyRC6EStvYpStffCq3kVaaOr_Pg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },2000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
